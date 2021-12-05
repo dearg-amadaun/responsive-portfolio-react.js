@@ -1,7 +1,15 @@
 import "./intro.scss"
+import { init } from 'ityped'
 import { ExpandMore } from "@mui/icons-material/";
+import { useEffect, useRef } from "react";
 
-export default function intro() {
+export default function Intro() {
+  const textRef = useRef();
+
+  useEffect(() => {
+    init(textRef.current, { showCursor: false, strings: [ 'Web Developer' ] });
+  }, []);
+
     return (
         <div className="intro" id="intro">
           <div className="left">
@@ -14,7 +22,7 @@ export default function intro() {
             <div className="wrapper">
               <h2>Hi! My name is</h2>
               <h1>Brendan Rottmund</h1>
-              <h3>Full Stack Web Developer</h3>
+              <h3>Full Stack <span ref={textRef}>Web Developer</span></h3>
             </div>
             <a href="#portfolio">
             <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
