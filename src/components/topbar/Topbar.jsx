@@ -1,5 +1,6 @@
-import "./topbar.scss"
-import {Person, Mail} from "@material-ui/icons"
+import "./topbar.scss";
+import {Person, Mail, Description} from "@mui/icons-material/";
+
 
 export default function Topbar( {menuOpen, setMenuOpen} ) {
     return (
@@ -7,9 +8,13 @@ export default function Topbar( {menuOpen, setMenuOpen} ) {
             <div className="wrapper">
                  <div className="left">
                      <a href="#intro" className="logo">Brendan Rottmund.</a>
-                     <div className="itemContainer">
+                     {/* <div className="itemContainer">
                         <Person clasName="icon" />
                         <span>(000)000-0000</span>
+                     </div> */}
+                     <div className="itemContainer">
+                        <Description clasName="icon" />
+                        <span><div id="resLink"><a href="">Resume</a></div></span>
                      </div>
                      <div className="itemContainer">
                          <Mail clasName="icon" />
