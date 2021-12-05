@@ -1,5 +1,5 @@
 import "./intro.scss"
-import {ArrowDownward} from "@mui/icons-material/";
+import { ExpandMore } from "@mui/icons-material/";
 
 export default function intro() {
     return (
@@ -14,10 +14,10 @@ export default function intro() {
             <div className="wrapper">
               <h2>Hi! My name is</h2>
               <h1>Brendan Rottmund</h1>
-              <h3>Full Stack Web Developmer</h3>
+              <h3>Full Stack Web Developer</h3>
             </div>
             <a href="#portfolio">
-            <ArrowDownward className="Icon" id="arrowDownward" style={{ fontSize: 125 }} />
+            <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
             </a>
           </div>
         </div>

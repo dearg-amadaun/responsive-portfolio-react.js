@@ -28,9 +28,19 @@
     }
     .right {
         flex: 0.5;
+        position: relative;
         
-        #arrowDownward {
-            color: #15023a;            
+        #chevronDown {
+            color: #15023a;
+            position: absolute;
+            bottom: 10px;
+            animation: chevronBlink 2s infinite;
+        }
+
+        @keyframes chevronBlink {
+            100% {
+                opacity: 0;
+            }
         }
 
         .wrapper {
@@ -41,8 +51,17 @@
             flex-direction: column;
             justify-content: center;
             
-            
+            h1 {
+                font-size: 60px;
+                margin: 10px 0;
+            }
+
+            h2 {
+                font-size: 35px;
+            }
+            h3 {
+                font-size: 30px;
+            }
         }
-        
     }
 }
