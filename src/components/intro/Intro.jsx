@@ -7,7 +7,13 @@ export default function Intro() {
   const textRef = useRef();
 
   useEffect(() => {
-    init(textRef.current, { showCursor: false, strings: [ 'Web Developer' ] });
+    init(textRef.current, { 
+      // backDelay:  1500,
+      // backSpeed: 200,
+      showCursor: true,
+      loop:       false,
+      
+      strings: [ 'Developer' ] });
   }, []);
 
     return (
@@ -22,7 +28,7 @@ export default function Intro() {
             <div className="wrapper">
               <h2>Hi! My name is</h2>
               <h1>Brendan Rottmund</h1>
-              <h3>Full Stack <span ref={textRef}>Web Developer</span></h3>
+              <h3>Full Stack <span ref={textRef}></span></h3>
             </div>
             <a href="#portfolio">
             <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />

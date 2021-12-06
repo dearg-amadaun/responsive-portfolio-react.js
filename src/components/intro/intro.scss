@@ -34,14 +34,14 @@
             color: #15023a;
             position: absolute;
             bottom: 10px;
-            animation: chevronBlink 2s infinite;
+            // animation: chevronBlink 2s infinite;
         }
 
-        @keyframes chevronBlink {
-            100% {
-                opacity: 0;
-            }
-        }
+        // @keyframes chevronBlink {
+        //     100% {
+        //         opacity: 0;
+        //     }
+        // }
 
         .wrapper {
             width: 100%;
@@ -65,6 +65,19 @@
                 span {
                     font-size: inherit;
                     color: darkslategrey;
+                }
+
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
                 }
             }
         }
