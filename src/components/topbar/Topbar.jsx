@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import {Person, Mail, Description} from "@mui/icons-material/";
+import { Mail, Description } from "@mui/icons-material/";
 
 
 export default function Topbar( {menuOpen, setMenuOpen} ) {
@@ -8,13 +8,9 @@ export default function Topbar( {menuOpen, setMenuOpen} ) {
             <div className="wrapper">
                  <div className="left">
                      <a href="#intro" className="logo">Brendan Rottmund.</a>
-                     {/* <div className="itemContainer">
-                        <Person className="icon" />
-                        <span>(000)000-0000</span>
-                     </div> */}
                      <div className="itemContainer">
                         <Description className="icon" />
-                        <span><div id="resLink"><a href="">Resume</a></div></span>
+                        <span><div id="resLink"><a href="https://drive.google.com/file/d/1YAxz6LcDIYiGTsvhWodta5OWhIVZca2T/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></div></span>
                      </div>
                      <div className="itemContainer">
                          <Mail className="icon" />
