@@ -13,7 +13,7 @@ export default function Menu( { menuOpen, setMenuOpen } ) {
                 </li>
                 
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#works">Works</a>
                 </li>
                 
                 <li>
