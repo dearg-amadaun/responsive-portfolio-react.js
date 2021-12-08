@@ -112,9 +112,10 @@ export const featuredPortfolio = [
   export const designPortfolio = [
     {
       id: 1,
-      title: "App",
+      title: "First foray into HTML",
+      link: "https://dearg-amadaun.github.io/HTML-Website/",
       img:
-        "https://picsum.photos/1200/910",
+        "../../assets/firstWebsite.png",
     },
     {
       id: 2,
