@@ -119,33 +119,24 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "App",
+      title: "Web page utilizing HTML and CSS",
+      link: "https://dearg-amadaun.github.io/Portfolio-Website/",
       img:
-        "https://picsum.photos/1200/912",
+        "../../assets/html-css-website.png",
     },
     {
       id: 3,
-      title: "App",
+      title: "A more advanced HTML/CSS portfolio made using a template. Tinkering to make it my own was a great learning experience.",
+      link: "https://dearg-amadaun.github.io/Portfolio-Overhaul/",
       img:
-        "https://picsum.photos/1200/913",
+        "../../assets/html-css-template.png",
     },
     {
       id: 4,
-      title: "App",
+      title: "My first simple website built using REACT.JS",
+      link: "https://dearg-amadaun.github.io/",
       img:
-        "https://picsum.photos/1200/914",
-    },
-    {
-      id: 5,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/915",
-    },
-    {
-      id: 6,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/916",
+        "../../assets/first-react.png",
     },
   ];
   
