@@ -22,8 +22,18 @@ export default function Contacts() {
                 <h2>Contact Me.</h2>
                 <h3>
                     <ul id="contactInfo">
-                    <li class="contactItem">Email:<a href="mailto:brottmund@gmail.com"><div class="menulink">brottmund@gmail.com</div></a></li>
-                    <li class="contactItem">Resume:<a href="https://drive.google.com/file/d/1YAxz6LcDIYiGTsvhWodta5OWhIVZca2T/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div class="menulink">Google Drive (PDF)</div></a></li>
+                    
+                    <li className="contactItem">Email:
+                        <a href="mailto:brottmund@gmail.com">
+                            <div className="menulink">brottmund@gmail.com</div>
+                        </a>
+                    </li>
+                    
+                    <li className="contactItem">Resume:
+                        <a href="https://drive.google.com/file/d/1YAxz6LcDIYiGTsvhWodta5OWhIVZca2T/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <div className="menulink">Google Drive (PDF)</div>
+                        </a>
+                    </li>
                         
                     </ul>
                 </h3>
