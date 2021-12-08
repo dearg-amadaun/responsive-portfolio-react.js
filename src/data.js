@@ -1,113 +1,136 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "App",
+      title: "Javascript, NoSQL based app for tracking workouts and fitness progress.",
+      link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       img:
-        "https://picsum.photos/1200/901",
+        "../../assets/fitness-tracker.png",
     },
     {
       id: 2,
-      title: "App",
+      title: "Javascript random password generator.",
+      link: "https://dearg-amadaun.github.io/Password-Generator/",
       img:
-        "https://picsum.photos/1200/902",
+        "../../assets/passwordGen.png",
     },
     {
       id: 3,
-      title: "App",
+      title: "Express based app that allows the user to input and save simple notes.",
+      link: "https://note-taker-express-homework-11.herokuapp.com/",
       img:
-        "https://picsum.photos/1200/903",
+        "../../assets/note-taker.png",
     },
     {
       id: 4,
-      title: "App",
+      title: "App that uses Inquirer and basic command line inputs to generate a Markdown README file (requires pull).",
+      link: "https://github.com/dearg-amadaun/Readme-Generator",
       img:
-        "https://picsum.photos/1200/904",
+        "../../assets/readmeGenerator.png",
     },
     {
       id: 5,
-      title: "App",
+      title: "Team Profile Generator, takes user input and creates a project team HTML page (requires pull).",
       img:
-        "https://picsum.photos/1200/905",
+        "../../assets/teamProfileGenerator.png",
     },
     {
       id: 6,
-      title: "App",
+      title: "FitList, a team effort at creating a RESTful app that users can build and track workouts with. ",
+      link: "https://boiling-headland-53434.herokuapp.com/",
       img:
-        "https://picsum.photos/1200/906",
+        "../../assets/fitList.png",
     },
   ];
   
-  export const webPortfolio = [
-    {
-      id: 1,
-      title: "App",
-      img: "https://picsum.photos/1200/907",
-    },
-    {
-      id: 2,
-      title: "App",
-      img: "https://picsum.photos/1200/908",
-    },
-    {
-      id: 3,
-      title: "App",
-      img: "https://picsum.photos/1200/909",
-    },
-    {
-      id: 4,
-      title: "App",
-      img: "https://picsum.photos/1200/801",
-    },
-    {
-      id: 5,
-      title: "App",
-      img: "https://picsum.photos/1200/802",
-    },
-    {
-      id: 6,
-      title: "App",
-      img: "https://picsum.photos/1200/803",
-    },
-  ];
+  // export const webPortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  // ];
   
-  export const mobilePortfolio = [
-    {
-      id: 1,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/804",
-    },
-    {
-      id: 2,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/805",
-    },
-    {
-      id: 3,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/806",
-    },
-    {
-      id: 4,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/807",
-    },
-    {
-      id: 5,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/808",
-    },
-    {
-      id: 6,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/809",
-    },
-  ];
+  // export const mobilePortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  // ];
   
   export const designPortfolio = [
     {
@@ -140,41 +163,47 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/917",
-    },
-    {
-      id: 2,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/918",
-    },
-    {
-      id: 3,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/919",
-    },
-    {
-      id: 4,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/920",
-    },
-    {
-      id: 5,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/921",
-    },
-    {
-      id: 6,
-      title: "App",
-      img:
-        "https://picsum.photos/1200/922",
-    },
-  ];
+  // export const contentPortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "App",
+  //     link: "",
+  //     iimg:
+  //     "../../assets/.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "App",
+  //     link: "",
+  //     iimg:
+  //     "../../assets/.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "App",
+  //     link: "",
+  //     img:
+  //       "../../assets/.png",
+  //   },
+  // ];
