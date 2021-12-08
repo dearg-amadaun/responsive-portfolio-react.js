@@ -1,28 +1,39 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./contact.scss"
 
 export default function Contacts() {
-    const [message, setMessage] = useState(false)
+//     const [message, setMessage] = useState(false)
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setMessage(true)
-    }
+//     const handleSubmit = (e) => {
+//         e.preventDefault();
+//         setMessage(true)
+//     }
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/linkedin.png" alt="" />
+                <a href="https://www.linkedin.com/in/brendan-rottmund-587a501b2" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/linkedin.png" alt="" />
+                </a>
+                <a href="https://github.com/dearg-amadaun" target="_blank" rel="noopener noreferrer">
                 <img src="assets/github.png" alt="" />
+                </a>
             </div>
             <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
+                <h2>Contact Me.</h2>
+                <h3>
+                    <ul id="contactInfo">
+                    <li class="contactItem">Email:<a href="mailto:brottmund@gmail.com"><div class="menulink">brottmund@gmail.com</div></a></li>
+                    <li class="contactItem">Resume:<a href="https://drive.google.com/file/d/1YAxz6LcDIYiGTsvhWodta5OWhIVZca2T/view?usp=sharing" target="_blank" rel="noopener noreferrer"><div class="menulink">Google Drive (PDF)</div></a></li>
+                        
+                    </ul>
+                </h3>
+                {/* <form onSubmit={handleSubmit}>
                    <input type="text" placeholder="Email" />
                    <textarea placeholder="Message"></textarea>
                    <button type="submit">Send</button> 
                    {message && <span>Thank you for contacting me!</span>}
-                </form>
+                </form> */}
             </div>
         </div>
     )
-}
+};

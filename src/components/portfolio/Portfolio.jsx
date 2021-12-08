@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
+import { ExpandMore } from "@mui/icons-material/";
 import "./portfolio.scss"
 import {
     featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
+    // webPortfolio,
+    // mobilePortfolio,
     designPortfolio,
-    contentPortfolio,
+    // contentPortfolio,
 } from "../../data.js"
 
 export default function Portfolio() {
@@ -18,22 +19,22 @@ export default function Portfolio() {
                 id: "featured",
                 title: "Featured",
             },
-            {
-                id: "web",
-                title: "Web App",
-            },
-            {
-                id: "mobile",
-                title: "Mobile App",
-            },    
+            // {
+            //     id: "web",
+            //     title: "Web App",
+            // },
+            // {
+            //     id: "mobile",
+            //     title: "Mobile App",
+            // },    
             {
                 id: "design",
                 title: "Design",
             },
-            {
-                id: "content",
-                title: "Content",
-            }, 
+            // {
+            //     id: "content",
+            //     title: "Content",
+            // }, 
         ];
 
         useEffect(() => {
@@ -42,18 +43,18 @@ export default function Portfolio() {
                 case "featured":
                     setData(featuredPortfolio);
                     break;
-                    case "web":
-                    setData(webPortfolio);
-                    break;
-                    case "mobile":
-                    setData(mobilePortfolio);
-                    break;
+                    // case "web":
+                    // setData(webPortfolio);
+                    // break;
+                    // case "mobile":
+                    // setData(mobilePortfolio);
+                    // break;
                     case "design":
                     setData(designPortfolio);
                     break;
-                    case "content":
-                    setData(contentPortfolio);
-                    break;
+                    // case "content":
+                    // setData(contentPortfolio);
+                    // break;
                     default:
                         setData(featuredPortfolio);
             }
@@ -84,6 +85,9 @@ export default function Portfolio() {
                     </div>
                 ))}
             </div>
+            <a href="#contact">
+            <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
+            </a>
         </div>
     );
 }
