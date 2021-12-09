@@ -43,10 +43,10 @@
         flex: 0.5;
         position: relative;
         
-        #chevronDown {
-            color: #15023a;
-            position: absolute;
-            bottom: 10px;
+        // #chevronDown {
+        //     color: #15023a;
+        //     position: absolute;
+        //     bottom: 10px;
             // animation: chevronBlink 2s infinite;
         }
 
@@ -81,6 +81,7 @@
             h2 {
                 font-size: 35px;
             }
+
             h3 {
                 font-size: 30px;
 
@@ -107,5 +108,22 @@
                 }
             }
         }
+
+        a {
+            position: absolute;
+            bottom: 10px;
+            left: 40px;
+
+            img {
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
     }
-}
+// }

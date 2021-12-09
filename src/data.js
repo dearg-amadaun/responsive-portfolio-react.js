@@ -31,6 +31,7 @@ export const featuredPortfolio = [
     {
       id: 5,
       title: "Team Profile Generator, takes user input and creates a project team HTML page (requires pull).",
+      link: "https://github.com/dearg-amadaun/Team-Profile-Generator",
       img:
         "./images/teamProfileGenerator.png",
     },
