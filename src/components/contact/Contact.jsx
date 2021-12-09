@@ -15,7 +15,7 @@ export default function Contacts() {
                     <img src="images/linkedin.png" alt="" />
                 </a>
                 <a href="https://github.com/dearg-amadaun" target="_blank" rel="noopener noreferrer">
-                <img src="images/github.png" alt="" />
+                <img src="./images/github.png" alt="" />
                 </a>
             </div>
             <div className="right">
