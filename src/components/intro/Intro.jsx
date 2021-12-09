@@ -3,6 +3,7 @@ import { init } from 'ityped'
 import { ExpandMore } from "@mui/icons-material/";
 import { useEffect, useRef } from "react";
 
+
 export default function Intro() {
   const textRef = useRef();
 
@@ -20,7 +21,7 @@ export default function Intro() {
         <div className="intro" id="intro">
           <div className="left">
             <div className="imgContainer">
-              <img src="../assets/me.jpg" alt="" />
+              <img src="../../assets/me.jpg" alt="" />
             </div>
           </div>
 
