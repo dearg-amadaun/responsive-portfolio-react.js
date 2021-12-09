@@ -3,7 +3,6 @@ import { init } from 'ityped'
 import { ExpandMore } from "@mui/icons-material/";
 import { useEffect, useRef } from "react";
 
-
 export default function Intro() {
   const textRef = useRef();
 
