@@ -1,6 +1,7 @@
 import "./intro.scss"
-import { init } from 'ityped'
-// import { ExpandMore } from "@mui/icons-material/";
+import { init } from "ityped"
+import headShot from "../../assets/me.jpg"
+import { ExpandMore } from "@mui/icons-material/";
 import { useEffect, useRef } from "react";
 
 export default function Intro() {
@@ -20,9 +21,10 @@ export default function Intro() {
         <div className="intro" id="intro">
           <div className="left">
             <div className="imgContainer">
-              <img src="./images/me.jpg" alt="" />
+              <img src={headShot} alt="" />
             </div>
           </div>
+
           <div className="right">
             <div className="wrapper">
               {/* <h2></h2> */}
@@ -30,8 +32,7 @@ export default function Intro() {
               <h3>Full Stack <span ref={textRef}></span></h3>
             </div>
             <a href="#portfolio">
-              <img src="./images/arrowDown.png" alt="" />
-            {/* <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} /> */}
+            <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
             </a>
           </div>
         </div>
