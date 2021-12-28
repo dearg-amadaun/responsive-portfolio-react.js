@@ -10,7 +10,7 @@ export default function Topbar( {menuOpen, setMenuOpen} ) {
                      <a href="#intro" className="logo">Brendan Rottmund.</a>
                      <div className="itemContainer">
                         <Description className="icon" />
-                        <span><div id="resLink"><a href="https://drive.google.com/file/d/1YAxz6LcDIYiGTsvhWodta5OWhIVZca2T/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></div></span>
+                        <span><div id="resLink"><a href="https://drive.google.com/file/d/1kw4548mBK672Z4WKZHqAfNZVVX_i0TGa/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></div></span>
                      </div>
                      <div className="itemContainer">
                          <Mail className="icon" />
