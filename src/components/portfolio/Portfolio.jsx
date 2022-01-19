@@ -74,16 +74,41 @@ export default function Portfolio() {
                     />
                 ))}
             </ul>
+            
+            
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
-                        <a href={d.link} target="_blank" rel="noreferrer" >
-                        <img src={d.img} alt=""/>
-                        </a>
-                        <h3>{d.title}</h3>
+                    
+                    // <div className="item">
+                    //     <a href={d.link} target="_blank" rel="noreferrer" ></a>
+                    //     <img src={d.img} alt=""/>
+                    //     <h3>{d.title}</h3>
+                
+                <div class="card">
+                    <div class="card__body">
+                        
+                    
+                        <img src={d.img} alt="" class="card__image"/>
+                      
+                        
+                        <h3 class="card__title">{d.title}</h3>
+                        <p class="card__description">{d.summary}</p>
                     </div>
+                    
+                    <div class="card__footer">
+                        <button class="card__btn" onClick={d.link}>Deployed</button>
+                        <button class="card__btn" onClick={d.link}>Deployed</button>
+                    </div>
+                    
+                </div>
+                
+                    //</div>
+                    
+                
                 ))}
             </div>
+            
+            
             <a href="#contact">
             <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
             </a>
