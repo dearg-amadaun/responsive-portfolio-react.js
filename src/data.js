@@ -7,7 +7,7 @@ export const featuredPortfolio = [
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
       img:
-        "./images/fitness-tracker.png",
+        "./assets/fitness-tracker.png",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export const featuredPortfolio = [
       link: "https://dearg-amadaun.github.io/Password-Generator/",
       git: "https://github.com/dearg-amadaun/Password-Generator",
       img:
-        "./images/passwordGen.png",
+        "./assets/passwordGen.png",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export const featuredPortfolio = [
       link: "https://note-taker-express-homework-11.herokuapp.com/",
       git: "https://github.com/dearg-amadaun/Express-Note-Taker",
       img:
-        "./images/note-taker.png",
+        "./assets/note-taker.png",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ export const featuredPortfolio = [
       link: "https://github.com/dearg-amadaun/Readme-Generator",
       git: "https://github.com/dearg-amadaun/Readme-Generator",
       img:
-        "./images/readmeGenerator.png",
+        "./assets/readmeGenerator.png",
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ export const featuredPortfolio = [
       link: "https://github.com/dearg-amadaun/Team-Profile-Generator",
       git: "https://github.com/dearg-amadaun/Team-Profile-Generator",
       img:
-        "./images/teamProfileGenerator.png",
+        "./assets/teamProfileGenerator.png",
     },
     {
       id: 6,
@@ -52,7 +52,7 @@ export const featuredPortfolio = [
       link: "https://boiling-headland-53434.herokuapp.com/",
       git: "https://github.com/dearg-amadaun/Fitlist",
       img:
-        "./images/fitList.png",
+        "./assets/fitList.png",
     },
   ];
   
@@ -62,42 +62,42 @@ export const featuredPortfolio = [
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 2,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 3,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 4,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 5,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 6,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   // ];
   
@@ -107,42 +107,42 @@ export const featuredPortfolio = [
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 2,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 3,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 4,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 5,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 6,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   // ];
   
@@ -154,7 +154,7 @@ export const featuredPortfolio = [
       git: "https://github.com/dearg-amadaun/HTML-Website",
       link: "https://dearg-amadaun.github.io/HTML-Website/",
       img:
-        "./images/firstWebsite.png",
+        "./assets/firstWebsite.png",
     },
     {
       id: 2,
@@ -163,7 +163,7 @@ export const featuredPortfolio = [
       git: "https://github.com/dearg-amadaun/Portfolio-Website",
       link: "https://dearg-amadaun.github.io/Portfolio-Website/",
       img:
-      "./images/html-css-website.png",
+      "./assets/html-css-website.png",
     },
     {
       id: 3,
@@ -172,7 +172,7 @@ export const featuredPortfolio = [
       git: "https://github.com/dearg-amadaun/Portfolio-Overhaul",
       link: "https://dearg-amadaun.github.io/Portfolio-Overhaul/",
       img:
-        "./images/html-css-template.png",
+        "./assets/html-css-template.png",
     },
     {
       id: 4,
@@ -181,7 +181,7 @@ export const featuredPortfolio = [
       git: "https://github.com/dearg-amadaun/dearg-amadaun.github.io",
       link: "https://dearg-amadaun.github.io/",
       img:
-        "./images/first-react.png",
+        "./assets/first-react.png",
     },
   ];
   
@@ -191,41 +191,41 @@ export const featuredPortfolio = [
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 2,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 3,
   //     title: "App",
   //     link: "",
   //     iimg:
-  //     "./images/.png",
+  //     "./assets/.png",
   //   },
   //   {
   //     id: 4,
   //     title: "App",
   //     link: "",
   //     iimg:
-  //     "./images/.png",
+  //     "./assets/.png",
   //   },
   //   {
   //     id: 5,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   //   {
   //     id: 6,
   //     title: "App",
   //     link: "",
   //     img:
-  //       "./images/.png",
+  //       "./assets/.png",
   //   },
   // ];
