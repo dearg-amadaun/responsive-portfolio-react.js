@@ -9,6 +9,8 @@ import "./app.scss"
 import {useState} from "react";
 import Menu from "./components/menu/Menu";
 
+import Test from "./components/test/Test"
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -23,7 +25,7 @@ function App() {
         {/* <Works />
         <Testimonials /> */}
         <Contact />
-
+        <Test />
       </div>
     </div>
   );

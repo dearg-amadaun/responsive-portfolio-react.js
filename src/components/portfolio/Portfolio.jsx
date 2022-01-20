@@ -10,6 +10,10 @@ import {
     // contentPortfolio,
 } from "../../data.js"
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkIcon from '@mui/icons-material/Link';
+
+
 export default function Portfolio() {
     const [ selected, setSelected ] = useState("featured")
     const [ data, setData ] = useState([])
@@ -78,37 +82,26 @@ export default function Portfolio() {
             
             <div className="container">
                 {data.map((d) => (
-                    
-                    // <div className="item">
-                    //     <a href={d.link} target="_blank" rel="noreferrer" ></a>
-                    //     <img src={d.img} alt=""/>
-                    //     <h3>{d.title}</h3>
                 
                 <div class="card">
                     <div class="card__body">
-                        
-                    
                         <img src={d.img} alt="" class="card__image"/>
-                      
-                        
                         <h3 class="card__title">{d.title}</h3>
                         <p class="card__description">{d.summary}</p>
                     </div>
-                    
                     <div class="card__footer">
-                        <button class="card__btn" onClick={d.link}>Deployed</button>
-                        <button class="card__btn" onClick={d.link}>Deployed</button>
+                        <span class="card__icon">
+                            <a href={d.git} target="_blank" rel="noreferrer" >
+                                <GitHubIcon fontSize="large" />
+                            </a>
+                            <a href={d.link} target="_blank" rel="noreferrer" >
+                                <LinkIcon fontSize="large" />
+                            </a>
+                        </span>
                     </div>
-                    
                 </div>
-                
-                    //</div>
-                    
-                
                 ))}
             </div>
-            
-            
             <a href="#contact">
             <ExpandMore className="Icon" id="chevronDown" style={{ fontSize: 100 }} />
             </a>

@@ -5,6 +5,7 @@ export const featuredPortfolio = [
       title: "Fitness Tracker",
       summary: "Javascript, NoSQL based app for tracking workouts and fitness progress.",
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
+      git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
       img:
         "./images/fitness-tracker.png",
     },
@@ -13,6 +14,7 @@ export const featuredPortfolio = [
       title: "Password Generator",
       summary: "Javascript password generator with input controls.",
       link: "https://dearg-amadaun.github.io/Password-Generator/",
+      git: "https://github.com/dearg-amadaun/Password-Generator",
       img:
         "./images/passwordGen.png",
     },
@@ -21,6 +23,7 @@ export const featuredPortfolio = [
       title: "Note Taker",
       summary: "Express based app that allows the user to input and save simple notes.",
       link: "https://note-taker-express-homework-11.herokuapp.com/",
+      git: "https://github.com/dearg-amadaun/Express-Note-Taker",
       img:
         "./images/note-taker.png",
     },
@@ -29,6 +32,7 @@ export const featuredPortfolio = [
       title: "Readme Generator",
       summary: "App that uses Inquirer and basic command line inputs to generate a Markdown README file (requires pull).",
       link: "https://github.com/dearg-amadaun/Readme-Generator",
+      git: "https://github.com/dearg-amadaun/Readme-Generator",
       img:
         "./images/readmeGenerator.png",
     },
@@ -37,6 +41,7 @@ export const featuredPortfolio = [
       title: "Team Profile Generator",
       summary: "Takes user input and creates a project team HTML page (requires pull).",
       link: "https://github.com/dearg-amadaun/Team-Profile-Generator",
+      git: "https://github.com/dearg-amadaun/Team-Profile-Generator",
       img:
         "./images/teamProfileGenerator.png",
     },
@@ -45,6 +50,7 @@ export const featuredPortfolio = [
       title: "FitList",
       summary: "FitList, a team effort at creating a RESTful app that users can build and track workouts with. ",
       link: "https://boiling-headland-53434.herokuapp.com/",
+      git: "https://github.com/dearg-amadaun/Fitlist",
       img:
         "./images/fitList.png",
     },

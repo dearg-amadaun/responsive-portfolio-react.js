@@ -30,7 +30,7 @@ export default function Contacts() {
                     </li>
                     
                     <li className="contactItem">Resume:
-                        <a href="hhttps://drive.google.com/file/d/1kw4548mBK672Z4WKZHqAfNZVVX_i0TGa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1kw4548mBK672Z4WKZHqAfNZVVX_i0TGa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <div className="menulink">Google Drive (PDF)</div>
                         </a>
                     </li>
