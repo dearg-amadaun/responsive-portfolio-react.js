@@ -52,16 +52,4 @@ const Card = ({
   );
 };
 
-// Card.propTypes = {
-//   imageScr: React.PropTypes.string,
-//   imageAlt: React.PropTypes.string,
-//   name: React.PropTypes.string,
-//   title: React.PropTypes.string,
-//   workPlace: React.PropTypes.string,
-//   textButton: React.PropTypes.string,
-//   children: React.PropTypes.node
-// };
-
-// ReactDOM.render(<Test />, document.getElementById("root"));
-
 export default Test;

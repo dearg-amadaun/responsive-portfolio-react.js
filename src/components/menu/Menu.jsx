@@ -24,9 +24,9 @@ export default function Menu( { menuOpen, setMenuOpen } ) {
                     <a href="#contact">Contact</a>
                 </li>
 
-                <li>
+                {/* <li>
                     <a href="#test">TestPage</a>
-                </li>
+                </li> */}
             </ul>
             
         </div>
