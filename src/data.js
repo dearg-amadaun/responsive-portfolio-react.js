@@ -151,6 +151,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Learning HTML",
       summary: "First foray into HTML",
+      git: "https://github.com/dearg-amadaun/HTML-Website",
       link: "https://dearg-amadaun.github.io/HTML-Website/",
       img:
         "./images/firstWebsite.png",
@@ -159,22 +160,25 @@ export const featuredPortfolio = [
       id: 2,
       title: "Learning CSS",
       summary: "Web page utilizing HTML and CSS",
+      git: "https://github.com/dearg-amadaun/Portfolio-Website",
       link: "https://dearg-amadaun.github.io/Portfolio-Website/",
       img:
-        "./images/html-css-website.png",
+      "./images/html-css-website.png",
     },
     {
       id: 3,
       title: "Template Tweak",
       summary: "A more advanced HTML/CSS portfolio made using a template. Tinkering to make it my own was a great learning experience.",
+      git: "https://github.com/dearg-amadaun/Portfolio-Overhaul",
       link: "https://dearg-amadaun.github.io/Portfolio-Overhaul/",
       img:
         "./images/html-css-template.png",
     },
     {
       id: 4,
-      title: "Learning",
+      title: "Learning React",
       summary: "My first simple website built using REACT.JS",
+      git: "https://github.com/dearg-amadaun/dearg-amadaun.github.io",
       link: "https://dearg-amadaun.github.io/",
       img:
         "./images/first-react.png",
