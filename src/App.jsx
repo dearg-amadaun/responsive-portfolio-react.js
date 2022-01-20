@@ -9,7 +9,7 @@ import "./app.scss"
 import {useState} from "react";
 import Menu from "./components/menu/Menu";
 
-import Test from "./components/test/Test"
+// import Test from "./components/test/Test"
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         {/* <Works />
         <Testimonials /> */}
         <Contact />
-        <Test />
+        {/* <Test /> */}
       </div>
     </div>
   );
