@@ -3,6 +3,7 @@ import "./contact.scss"
 
 
 export default function Contacts() {
+// Contact form control    
 //     const [message, setMessage] = useState(false)
 
 //     const handleSubmit = (e) => {
@@ -13,10 +14,10 @@ export default function Contacts() {
         <div className="contact" id="contact">
             <div className="left">
                 <a href="https://www.linkedin.com/in/brendan-rottmund-587a501b2" target="_blank" rel="noopener noreferrer">
-                <img src="../../public/images/linkedin.png" alt="" />
+                <img src="../../images/linkedin.png" alt="" />
                 </a>
                 <a href="https://github.com/dearg-amadaun" target="_blank" rel="noopener noreferrer">
-                <img src="../../public/images/github.png" alt="" />
+                <img src="../../images/github.png" alt="" />
                 </a>
             </div>
             <div className="right">
@@ -38,7 +39,10 @@ export default function Contacts() {
                         
                     </ul>
                 </h3>
-                {/* <form onSubmit={handleSubmit}>
+                
+                {/* 
+                Contact Form
+                    <form onSubmit={handleSubmit}>
                    <input type="text" placeholder="Email" />
                    <textarea placeholder="Message"></textarea>
                    <button type="submit">Send</button> 

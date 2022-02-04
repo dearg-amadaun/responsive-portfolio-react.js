@@ -85,7 +85,7 @@ export default function Portfolio() {
                 
                 <div class="card">
                     <div class="card__body">
-                        <img src={d.img} alt="" class="card__image"/>
+                        <img src={ d.img } alt="" class="card__image"/>
                         <h3 class="card__title">{d.title}</h3>
                         <p class="card__description">{d.summary}</p>
                     </div>
