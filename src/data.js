@@ -1,4 +1,4 @@
-/*Directly importing each image is as clean as it was before,
+/*Directly importing each image isn't as clean as it was before,
 but I just can't seem to figure out the issue here. Portfolio.jsx 
 just doesn't seem to want to play nice. 
 
