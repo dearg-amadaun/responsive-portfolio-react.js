@@ -1,3 +1,10 @@
+/*Directly importing each image is as clean as it was before,
+but I just can't seem to figure out the issue here. Portfolio.jsx 
+just doesn't seem to want to play nice. 
+
+P.S. Remember to also look into the invisible .svg social icons in Contact.jsx, 
+same problem but directly importing those is less of a hassle.*/
+
 import tracker from './assets/images/fitness-tracker.png'
 export const featuredPortfolio = [
     {
@@ -6,6 +13,7 @@ export const featuredPortfolio = [
       summary: "Javascript, NoSQL based app for tracking workouts and fitness progress.",
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
+      // img: "./assets/images/fitness-tracker.png",
       img: tracker, 
         
         
@@ -16,8 +24,7 @@ export const featuredPortfolio = [
       summary: "Javascript password generator with input controls.",
       link: "https://dearg-amadaun.github.io/Password-Generator/",
       git: "https://github.com/dearg-amadaun/Password-Generator",
-      img:
-        "../public/images/passwordGen.png",
+      img: 'assets/images/passwordGen.png',
     },
     {
       id: 3,
