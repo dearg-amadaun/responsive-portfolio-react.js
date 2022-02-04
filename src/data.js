@@ -7,7 +7,7 @@ export const featuredPortfolio = [
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
       img:
-        "/images/fitness-tracker.png",
+        "./images/fitness-tracker.PNG",
         
         
     },
@@ -18,7 +18,7 @@ export const featuredPortfolio = [
       link: "https://dearg-amadaun.github.io/Password-Generator/",
       git: "https://github.com/dearg-amadaun/Password-Generator",
       img:
-        "/images/passwordGen.png",
+        "../public/images/passwordGen.png",
     },
     {
       id: 3,
