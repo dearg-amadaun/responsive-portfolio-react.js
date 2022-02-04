@@ -1,6 +1,6 @@
 import "./intro.scss"
 import { init } from "ityped"
-import headShot from "../../assets/me.jpg"
+import headShot from "../../assets/images/me.jpg"
 import { ExpandMore } from "@mui/icons-material/";
 import { useEffect, useRef } from "react";
 

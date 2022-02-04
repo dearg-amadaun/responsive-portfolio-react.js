@@ -1,4 +1,4 @@
-
+import tracker from './assets/images/fitness-tracker.png'
 export const featuredPortfolio = [
     {
       id: 1,
@@ -6,8 +6,7 @@ export const featuredPortfolio = [
       summary: "Javascript, NoSQL based app for tracking workouts and fitness progress.",
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
-      img:
-        "./images/fitness-tracker.PNG",
+      img: tracker, 
         
         
     },
