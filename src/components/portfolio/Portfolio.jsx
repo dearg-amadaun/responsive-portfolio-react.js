@@ -85,6 +85,14 @@ export default function Portfolio() {
                 
                 <div class="card">
                     <div class="card__body">
+                        
+                        {/* Why can't I get the image to display just by 
+                        mapping it from the data.js? It worked in the 
+                        original build with hyperlink images in place of cards
+                        what am I missing? If it's a pathing issue it's 
+                        probably so simple I can't see it, but nothing I've 
+                        tried via pathing seems to work. */}
+
                         <img src={ d.img } alt="" class="card__image"/>
                         <h3 class="card__title">{d.title}</h3>
                         <p class="card__description">{d.summary}</p>

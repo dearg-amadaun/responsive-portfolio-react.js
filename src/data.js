@@ -5,7 +5,20 @@ just doesn't seem to want to play nice.
 P.S. Remember to also look into the invisible .svg social icons in Contact.jsx, 
 same problem but directly importing those is less of a hassle.*/
 
-import tracker from './assets/images/fitness-tracker.png'
+//Portfolio Projects
+import fitnessTracker from './assets/images/fitness-tracker.png'
+import passGen from './assets/images/passwordGen.png'
+import noteTaker from './assets/images/note-taker.png'
+import readmeGen from './assets/images/readmeGenerator.png'
+import teamProfileGen from './assets/images/teamProfileGenerator.png'
+import fitList from './assets/images/fitList.png'
+
+//Website Design Progression
+import learnHtml from './assets/images/firstWebsite.png'
+import learnCSS from './assets/images/html-css-website.png'
+import templateTweak from './assets/images/html-css-template.png'
+import learnReact from './assets/images/first-react.png'
+
 export const featuredPortfolio = [
     {
       id: 1,
@@ -14,7 +27,7 @@ export const featuredPortfolio = [
       link: "https://calm-harbor-58560.herokuapp.com/?id=61b12e46e8999300166d89ab",
       git: "https://github.com/dearg-amadaun/NOSQL-WorkoutTracker",
       // img: "./assets/images/fitness-tracker.png",
-      img: tracker, 
+      img: fitnessTracker, 
         
         
     },
@@ -24,7 +37,8 @@ export const featuredPortfolio = [
       summary: "Javascript password generator with input controls.",
       link: "https://dearg-amadaun.github.io/Password-Generator/",
       git: "https://github.com/dearg-amadaun/Password-Generator",
-      img: 'assets/images/passwordGen.png',
+      // img: "assets/images/passwordGen.png",
+      img: passGen,
     },
     {
       id: 3,
@@ -32,8 +46,8 @@ export const featuredPortfolio = [
       summary: "Express based app that allows the user to input and save simple notes.",
       link: "https://note-taker-express-homework-11.herokuapp.com/",
       git: "https://github.com/dearg-amadaun/Express-Note-Taker",
-      img:
-        "/images/note-taker.png",
+      // img: "/images/note-taker.png",
+      img: noteTaker,
     },
     {
       id: 4,
@@ -41,8 +55,8 @@ export const featuredPortfolio = [
       summary: "App that uses Inquirer and basic command line inputs to generate a Markdown README file (requires pull).",
       link: "https://github.com/dearg-amadaun/Readme-Generator",
       git: "https://github.com/dearg-amadaun/Readme-Generator",
-      img:
-        "/images/readmeGenerator.png",
+      img: "/images/readmeGenerator.png",
+      img: readmeGen,
     },
     {
       id: 5,
@@ -50,8 +64,8 @@ export const featuredPortfolio = [
       summary: "Takes user input and creates a project team HTML page (requires pull).",
       link: "https://github.com/dearg-amadaun/Team-Profile-Generator",
       git: "https://github.com/dearg-amadaun/Team-Profile-Generator",
-      img:
-        "/images/teamProfileGenerator.png",
+      // img: "/images/teamProfileGenerator.png",
+      img: teamProfileGen,
     },
     {
       id: 6,
@@ -59,8 +73,8 @@ export const featuredPortfolio = [
       summary: "FitList, a team effort at creating a RESTful app that users can build and track workouts with. ",
       link: "https://boiling-headland-53434.herokuapp.com/",
       git: "https://github.com/dearg-amadaun/Fitlist",
-      img:
-        "/images/fitList.png",
+      // img: "/images/fitList.png",
+      img: fitList,
     },
   ];
   
@@ -161,8 +175,8 @@ export const featuredPortfolio = [
       summary: "First foray into HTML",
       git: "https://github.com/dearg-amadaun/HTML-Website",
       link: "https://dearg-amadaun.github.io/HTML-Website/",
-      img:
-        "/images/firstWebsite.png",
+      // img: "/images/firstWebsite.png",
+      img: learnHtml,
     },
     {
       id: 2,
@@ -170,8 +184,8 @@ export const featuredPortfolio = [
       summary: "Web page utilizing HTML and CSS",
       git: "https://github.com/dearg-amadaun/Portfolio-Website",
       link: "https://dearg-amadaun.github.io/Portfolio-Website/",
-      img:
-      "/images/html-css-website.png",
+      // img: "/images/html-css-website.png",
+      img: learnCSS,
     },
     {
       id: 3,
@@ -179,8 +193,8 @@ export const featuredPortfolio = [
       summary: "A more advanced HTML/CSS portfolio made using a template. Tinkering to make it my own was a great learning experience.",
       git: "https://github.com/dearg-amadaun/Portfolio-Overhaul",
       link: "https://dearg-amadaun.github.io/Portfolio-Overhaul/",
-      img:
-        "/images/html-css-template.png",
+      // img: "/images/html-css-template.png",
+      img: templateTweak,
     },
     {
       id: 4,
@@ -188,8 +202,8 @@ export const featuredPortfolio = [
       summary: "My first simple website built using REACT.JS",
       git: "https://github.com/dearg-amadaun/dearg-amadaun.github.io",
       link: "https://dearg-amadaun.github.io/",
-      img:
-        "/images/first-react.png",
+      // img: "/images/first-react.png",
+      img: learnReact,
     },
   ];
   
