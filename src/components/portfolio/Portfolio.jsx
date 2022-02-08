@@ -1,3 +1,5 @@
+/*Should have built the cards as a seperate component */
+
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import { ExpandMore } from "@mui/icons-material/";

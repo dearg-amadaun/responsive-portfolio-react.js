@@ -50,6 +50,20 @@
                 span {
                     font-size: 15px;
                     font-weight: 500;
+
+                    a {
+                        color: inherit;
+                        outline: none;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        text-decoration: underline;
+                      }
+    
+                    a:active {
+                        text-decoration: underline;
+                    }
                 }
                 
             }
@@ -70,7 +84,7 @@
                     text-decoration: underline;
                 }
             }
-    
+
         }
 
 
