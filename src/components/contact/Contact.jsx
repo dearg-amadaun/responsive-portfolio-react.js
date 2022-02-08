@@ -1,5 +1,7 @@
 // import { useState } from "react";
 import "./contact.scss"
+import gitHub from "../../assets/images/github.svg"
+import linkedIn from "../../assets/images/linkedin.svg" 
 
 
 export default function Contacts() {
@@ -14,10 +16,10 @@ export default function Contacts() {
         <div className="contact" id="contact">
             <div className="left">
                 <a href="https://www.linkedin.com/in/brendan-rottmund-587a501b2" target="_blank" rel="noopener noreferrer">
-                <img src="../../images/linkedin.png" alt="" />
+                <img src={ linkedIn } alt="" />
                 </a>
                 <a href="https://github.com/dearg-amadaun" target="_blank" rel="noopener noreferrer">
-                <img src="../../images/github.png" alt="" />
+                <img src={ gitHub } alt="" />
                 </a>
             </div>
             <div className="right">
